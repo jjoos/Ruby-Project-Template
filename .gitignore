@@ -1,6 +1,11 @@
 # For a simple Ruby library or Gem, Gemfile.lock should not be under
-# version control. 
+# version control.
 #
 # See http://stackoverflow.com/questions/4151495/should-gemfile-lock-be-included-in-gitignore
 Gemfile.lock
-
+.*.sw[a-z]
+*.un~
+Session.vim
+.*
+!.gitignore
+*~
