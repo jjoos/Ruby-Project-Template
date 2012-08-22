@@ -11,8 +11,7 @@ end
 
 group :development, :test do
   gem 'libnotify'
-  gem 'rb-inotify'
+  gem 'terminal-notifier-guard'
   gem 'cucumber'
   gem 'rspec'
 end
-
