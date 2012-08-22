@@ -6,11 +6,7 @@
 # We make no guarantees that this code is fit for any purpose.
 # Visit http://www.pragmaticprogrammer.com/titles/achbd for more book information.
 #---
-class RSpecGreeter
-  def greet
-    "Hello RSpec!"
-  end
-end
+require 'RSpecGreeter.rb'
 
 describe "RSpec Greeter" do
   it "should say 'Hello RSpec!' when it receives the greet() message" do

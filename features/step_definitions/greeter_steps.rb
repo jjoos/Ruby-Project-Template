@@ -6,11 +6,8 @@
 # We make no guarantees that this code is fit for any purpose. 
 # Visit http://www.pragmaticprogrammer.com/titles/achbd for more book information.
 #---
-class CucumberGreeter
-  def greet
-    "Hello Cucumber!"
-  end
-end
+
+require 'CucumberGreeter.rb'
 
 Given /^a greeter$/ do
   @greeter = CucumberGreeter.new

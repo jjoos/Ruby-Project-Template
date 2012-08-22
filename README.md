@@ -9,7 +9,7 @@ contains hello-world features and specs adapted from the
 1. If using RVM, edit the .rvmrc file to suit your project requirements.
 2. Install bundler: `gem install bundler`
 3. Install guard `gem install guard`
-4. Install dependencies: `bundler install`
+4. Install dependencies: `bundle install`
 5. Launch guard: `guard start`
 
 Guard will run rspec and cucumber against some "hello world" specs and
